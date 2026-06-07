@@ -1,0 +1,22 @@
+{
+  "name": "ig-downloader",
+  "version": "2.0.0",
+  "description": "Instagram Downloader v2 — powered by yt-dlp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@bochilteam/scraper": "^5.0.1",
+    "@mrnima/instagram-downloader": "^1.0.0",
+    "api-dylux": "^1.8.6",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "instagram-url-downloader": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
